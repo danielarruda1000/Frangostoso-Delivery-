@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color:#750909;
+    height: 5em;
+    display: flex;
+    
+}
+.menu > .logo{
+    height: 65px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.nomeLoja
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0.2em;
+    padding-left: 10px; 
+    font-size: 2em;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+}
+.nomeLoja:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.slogan{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8em;
+    color: whitesmoke;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.slogan:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.fundo{
+    height: 500px;
+}
+
+.produtos{
+    height: 450px;
+    animation: drop 1.5s ease;
+}
+
+.frase{
+    position: absolute;
+    top:15px;
+}
+.frase1,.butao{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.frase3{
+    position: absolute;
+    top:90px;
+}
+
+.butao{
+    border-radius: 50px;
+    border: none;
+    font-size: 300%;
+    font-weight: bold;
+    background-color:#f4e62b;
+    height: 20%;
+    width: 45%;
+}
+
+.butao2{
+    border-radius: 50px;
+    border: none;
+    font-size: 350%;
+    font-weight: bold;
+    background-color:#f4e62b;
+    height: 30%;
+    width: 45%;
+
+}
+.butao2>a{
+    text-decoration: none;
+    color:#750909;
+}
+.butao2>a:hover{
+    text-decoration: none;
+    color:#f4e62b;
+}
+.butao2:hover{
+    background-color: #750909;
+}
+
+.butao:hover{
+    font-size: 350%;
+    font-weight: bold;
+    background-color:#f4e62b;
+    height: 25%;
+    width: 50%;
+}
+
+.butao > a, .butao >a:hover{
+    text-decoration: none;
+    color:#750909;
+}
+
+.titulo{
+    color: #0e0e0e;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.frase6{
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ .column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  .img02{
+      height: 35%;
+      width: 50%;
+  }
+  .img05{
+      height: 25%;
+      width: 50%;
+  }
+
+  .frango{
+    
+      height: 80%;
+      width: 80%;
+  }
+  .frango:hover{
+    animation: drop 1s ease;
+  }
+
+  @keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.motoboy{
+    height: 100%;
+    width:  90%;
+    opacity: 0.9;
+    border-radius: 2%;
+}
+
+.localizacaoTitulo{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 70%;   
+}
+.iconTel{
+    margin-top:2px ;
+    height: 50%;
+}
+.iconRelogio{
+    margin-left: 4px;
+    height: 45%;;
+}
+.iconLocal{
+    height: 60%;
+}
+.iconFace{
+    margin-right: 5px;
+    height: 55%;
+}
+.local >a> img{
+    width: 100%;
+}
+.infoBox{
+    height: 180px;
+    background-color:#750909;
+}
+.infoTitulo{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.info{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.cnpj{
+    background-color: #750909;
+}
+.cnpj >h5{
+    color: whitesmoke;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.direitos{
+    color: wheat;
+}
+
+@media (max-width: 576px){
+
+    
+
+    .fundo{
+        height: 350px;
+    }
+    .frase1{
+        font-size: 35px;
+    }
+    .produtos{
+        height: 200px;
+    }
+    .butao{
+        height: 70px;
+        width: 100%;
+    }
+    .butao:hover{
+        height: 80px;
+        width: 110%;
+    } 
+    .butao > a:hover{
+        
+        font-size: 55px;
+    }
+
+    .titulo{
+        font-size: 25px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .frango{
+        display: none;
+    }
+    .rowFotos{
+        height: 97%;
+    }
+    .motoboy{
+        height: 200px;
+        width: 110%;
+    }
+    .butao2{
+        height: 50px;
+        width: 100%;
+        font-size: 100%;
+        margin: 0;
+        
+    }
+    .icon{
+        height: 30px;
+    }
+    .infoBox{
+        height: 150px;
+    }
+    .infoTitulo{
+        font-size: 14px;
+    }
+    .info{
+        font-size: 8px;
+    }
+    .iconTel,.iconLocal,.iconRelogio{
+        display: none;
+    }
+    .iconFace{
+        height: 15px;
+    }
+    .cnpj>h5{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px){
+    .fundo{
+        height: 400px;
+    }
+    .frase1{
+        font-size: 40px;
+    }
+    .produtos{
+        height: 300px;
+    }
+    .butao{
+        height: 70px;
+        width: 75%;
+    }
+    .butao:hover{
+        height: 80px;
+        width: 80%;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .frango{
+        display: none;
+    }
+    .motoboy{
+        height: 250px;
+        width: 100%;
+    }
+    .butao2{
+        height: 50px;
+        width: 100%;
+        font-size: 25px;
+        margin: 0;
+    }
+    .icon{
+        height: 35px;
+    }
+    .infoBox{
+        height: 150px;
+    }
+    .infoTitulo{
+        font-size: 20px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .iconTel,.iconLocal,.iconRelogio{
+        display: none;
+    }
+    .iconFace{
+        height: 15px;
+    }
+    .cnpj>h5{
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+    .fundo{
+        height: 400px;
+    }
+    .frase1{
+        font-size: 50px;
+    }
+    .produtos{
+        height: 300px;
+    }
+    .butao{
+        height: 70px;
+        width: 75%;
+    }
+    .butao:hover{
+        height: 80px;
+        width: 80%;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .frango{
+        display: none;
+    }
+    .motoboy{
+        height: 300px;
+        width: 100%;
+    }
+    .butao2{
+        height: 75px;
+        width: 100%;
+        font-size: 35px;
+        margin: 0;
+    }
+    .icon{
+        height: 35px;
+    }
+    .infoBox{
+        height: 150px;
+    }
+    .infoTitulo{
+        font-size: 20px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .iconTel{
+        margin-top: 0;
+        height: 40%;
+    }
+    .iconLocal{
+        height: 45%;
+    }
+    .iconFace{
+        height: 20px;
+    }
+    .cnpj>h5{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:992px) and (max-width: 1200px){
+    .infoBox{
+        height: 150px;
+    }
+    .infoTitulo{
+        font-size: 25px;
+    }
+    .info{
+        font-size: 15px;
+    }
+    .iconTel{
+        height: 45%;
+    }
+    .iconLocal{
+        height: 55%;
+    }
+    .frango{
+        display: none;
+    }
+    
+}
+
+@media(min-width: 930px) and (max-width: 1600px){
+    .frango{
+        display: none
+    }
+}
